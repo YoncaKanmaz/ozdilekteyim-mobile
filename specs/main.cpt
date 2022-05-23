@@ -1,0 +1,60 @@
+Created by testinium on 23.05.2022
+
+This is a concept file with following syntax for each concept.
+# Uygulamanın açıldığını kontrol et
+* "3" saniye kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" ve "ALIŞVERİŞE BAŞLA" Xpath elementlerinin değerlerini bul ve içeriklerini kontrol et
+# Alışverişe Başla butonuna tıkla
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" Id'sine sahip elementi bul ve tıkla
+# Anasayfa'nın açıldığını kontrol et
+* "3" saniye kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/largeLabel']" ve "Anasayfa" Xpath elementlerinin değerlerini bul ve içeriklerini kontrol et
+* "3" saniye kadar bekle
+# Kategoriler Butonuna tıkla
+* "com.ozdilek.ozdilekteyim:id/nav_categories" Id'sine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Kategoriler sayfasının açıldığını kontrol et
+* "//*[@content-desc='Kategoriler']/android.widget.TextView" ve "Kategoriler" Xpath elementlerinin değerlerini bul ve içeriklerini kontrol et
+* "3" saniye kadar bekle
+# Kadın kategorisine tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" Xpath'ine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Pantolon kategorisine tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10]" Xpath'ine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Sayfayı iki defa yukarı kaydır
+* Sayfayı yukarı kaydır
+* Sayfayı yukarı kaydır
+* "3" saniye kadar bekle
+# Rastgele ürün seç
+* Rastgele ürün seçilir
+* "3" saniye kadar bekle
+# Ürün detay sayfasının açıldığını kontrol et
+* "//*[@text='SEPETE EKLE']" ve "SEPETE EKLE" Xpath elementlerinin değerlerini bul ve içeriklerini kontrol et
+* "3" saniye kadar bekle
+# Favoriler butonuna tıkla
+* "com.ozdilek.ozdilekteyim:id/imgFav" Id'sine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Giriş sayfasının açıldığını kontrol et
+* "com.ozdilek.ozdilekteyim:id/btnLogin" ve "Giriş Yap" Id elementlerinin değerlerini bul ve içeriklerini kontrol et
+* "3" saniye kadar bekle
+# Kullanıcı adını yaz
+* "com.ozdilek.ozdilekteyim:id/etEposta" Id'sine sahip elemente "Yonca" değerini yaz
+* "3" saniye kadar bekle
+# Şifreyi yaz
+* "com.ozdilek.ozdilekteyim:id/etPassword" Id'sine sahip elemente "1q2w3e4r5t" değerini yaz
+* "3" saniye kadar bekle
+# Geri butonuna iki defa tıkla
+* "com.ozdilek.ozdilekteyim:id/ivBack" Id'sine sahip elementi bul ve tıkla
+* "5" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" Id'sine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+# Ürünü sepete ekle
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" Id'sine sahip elementi bul ve tıkla
+* "3" saniye kadar bekle
+
+
+
+
+
